@@ -11,9 +11,9 @@ const app = Vue.createApp({
       if (box === "A") {
         this.boxA = !this.boxA;
       } else if (box === "B") {
-        this.boxB === !this.boxB;
-      } else (box === "C") {
-        this.boxC === !this.boxC;
+        this.boxB = !this.boxB;
+      } else if (box === "C") {
+        this.boxC = !this.boxC;
       }
     },
   },
